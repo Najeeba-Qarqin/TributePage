@@ -101,3 +101,31 @@ body {
   font-size: 12px;
   margin: 0;
 }
+
+@media (max-width: 700px) {
+  #main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #img-div {
+    position: unset;
+    width: 80%;
+    margin: 10px;
+    font-size: small;
+  }
+
+  .time-line {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+
+  .times > h1, .times > p {
+    font-size: smaller;
+  }
+}
