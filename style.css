@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: large;
+  font-size: medium;
   font-family: cursive;
 }
 
@@ -14,4 +14,32 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+}
+
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: 100px;
+  padding: 20px;
+  box-shadow: 0 0 11px blue;
+  border-radius: 10px;
+}
+
+#image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+#title {
+  font-size: medium;
+}
+
+#img-caption {
+  font-size: small;
 }
