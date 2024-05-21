@@ -49,3 +49,19 @@ body {
   font-size: small;
   padding: 1px 80px 30px;
 }
+
+.time-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 888px;
+  max-width: 600px;
+}
+#tribute-info {
+  display: block;
+  font-size: larger;
+  font-weight: 600;
+  margin: 20px;
+}
