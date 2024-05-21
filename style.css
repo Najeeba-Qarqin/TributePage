@@ -14,6 +14,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  background: fixed, url(images/BG.jpg);
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 #img-div {
@@ -24,8 +28,9 @@ body {
   width: 30%;
   margin: 100px;
   padding: 20px;
-  box-shadow: 0 0 11px blue;
+  box-shadow: 0 0 15px black;
   border-radius: 10px;
+  position: fixed;
 }
 
 #image {
@@ -42,4 +47,5 @@ body {
 
 #img-caption {
   font-size: small;
+  padding: 1px 80px 30px;
 }
