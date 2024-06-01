@@ -1,4 +1,4 @@
-# TributePage# Technical Documentation 🚀
+# TributePage 🚀
 
 ## Project Description 📝
 
